@@ -13,6 +13,7 @@ import {MatInputModule} from '@angular/material/input';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { ProductsComponent } from './products/products.component';
 
 
 
@@ -22,7 +23,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     AppComponent,
     HomeComponent,
     ContactusComponent,
-    AboutusComponent
+    AboutusComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
